@@ -12,11 +12,13 @@
     <Content Remove="wwwroot\images\" />
     <Content Remove="wwwroot\webfonts\" />
     <Content Remove="wwwroot\sass\" />
+    <Content Remove="appsettings.staging.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\webfonts\" />
     <Folder Include="wwwroot\sass\" />
+    <Folder Include="Service\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.7" />
@@ -28,5 +30,8 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Service\" />
   </ItemGroup>
 </Project>

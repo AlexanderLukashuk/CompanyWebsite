@@ -1,4 +1,8 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using CompanyWebsite.Service;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Configuration.Bind("Project", new Config());
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
