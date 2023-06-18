@@ -9,10 +9,16 @@
   <ItemGroup>
     <None Remove="Entities\" />
     <None Remove="Data\" />
+    <None Remove="Data\Repositories\" />
+    <None Remove="Data\Repositories\Abstract\" />
+    <None Remove="Data\Repositories\EntityFramework\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Data\" />
+    <Folder Include="Data\Repositories\" />
+    <Folder Include="Data\Repositories\Abstract\" />
+    <Folder Include="Data\Repositories\EntityFramework\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.7" />
