@@ -257,3 +257,4 @@
 /Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsite/obj/Debug/net7.0/CompanyWebsite.pdb
 /Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsite/obj/Debug/net7.0/CompanyWebsite.genruntimeconfig.cache
 /Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsite/obj/Debug/net7.0/ref/CompanyWebsite.dll
+/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsite/bin/Debug/net7.0/appsettings.production.json
