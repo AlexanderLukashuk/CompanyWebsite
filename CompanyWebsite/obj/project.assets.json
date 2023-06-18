@@ -3989,6 +3989,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "CompanyWebsiteLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.7"
+        },
+        "compile": {
+          "bin/placeholder/CompanyWebsiteLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CompanyWebsiteLibrary.dll": {}
+        }
       }
     }
   },
@@ -11509,10 +11522,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "CompanyWebsiteLibrary/1.0.0": {
+      "type": "project",
+      "path": "../CompanyWebsiteLibrary/CompanyWebsiteLibrary.csproj",
+      "msbuildProject": "../CompanyWebsiteLibrary/CompanyWebsiteLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "CompanyWebsiteLibrary >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.7",
       "Microsoft.EntityFrameworkCore >= 7.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.7",
@@ -11546,7 +11565,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/CompanyWebsiteLibrary.csproj": {
+              "projectPath": "/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/CompanyWebsiteLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
