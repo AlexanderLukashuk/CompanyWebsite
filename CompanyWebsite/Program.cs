@@ -13,7 +13,8 @@ builder.Services.AddTransient<ITextFieldsRepository, EFTextFieldRepository>();
 builder.Services.AddTransient<IServiceItemsREpository, EFServiceItemsRepository>();
 builder.Services.AddTransient<DataManager>();
 
-builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(Config.ConnectionString));
+builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(Config.ConnectionString,
+    optionsBuilder => optionsBuilder.MigrationsAssembly("CompanyWebsite")));
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(opts =>
 {
