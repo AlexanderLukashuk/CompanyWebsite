@@ -57,6 +57,8 @@ app.UseCookiePolicy();
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.MapControllerRoute("admin", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
