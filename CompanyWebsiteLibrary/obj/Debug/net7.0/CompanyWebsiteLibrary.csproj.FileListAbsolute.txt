@@ -1,0 +1,12 @@
+/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/bin/Debug/net7.0/CompanyWebsiteLibrary.deps.json
+/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/bin/Debug/net7.0/CompanyWebsiteLibrary.dll
+/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/bin/Debug/net7.0/CompanyWebsiteLibrary.pdb
+/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/obj/Debug/net7.0/CompanyWebsiteLibrary.csproj.AssemblyReference.cache
+/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/obj/Debug/net7.0/CompanyWebsiteLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/obj/Debug/net7.0/CompanyWebsiteLibrary.AssemblyInfoInputs.cache
+/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/obj/Debug/net7.0/CompanyWebsiteLibrary.AssemblyInfo.cs
+/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/obj/Debug/net7.0/CompanyWebsiteLibrary.csproj.CoreCompileInputs.cache
+/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/obj/Debug/net7.0/CompanyWebsiteLibrary.dll
+/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/obj/Debug/net7.0/refint/CompanyWebsiteLibrary.dll
+/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/obj/Debug/net7.0/CompanyWebsiteLibrary.pdb
+/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsiteLibrary/obj/Debug/net7.0/ref/CompanyWebsiteLibrary.dll
