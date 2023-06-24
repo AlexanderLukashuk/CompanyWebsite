@@ -36,7 +36,15 @@ builder.Services.ConfigureApplicationCookie(options =>
 });
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddAuthorization(x =>
+    {
+        x.AddPolicy("AdminArea", policy => { policy.RequireRole("admin"); });
+    });
+
+builder.Services.AddControllersWithViews(x =>
+    {
+        x.Conventions.Add(new AdminAreaAuthorization("Admin", "AdminArea"));
+    });
 
 var app = builder.Build();
 
