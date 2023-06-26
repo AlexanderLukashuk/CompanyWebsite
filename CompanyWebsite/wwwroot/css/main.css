@@ -2019,3 +2019,7 @@ input::-moz-focus-inner {
 .div-box-label {
 	display: block;
 }
+
+.div-box-links {
+	display: block;
+}
