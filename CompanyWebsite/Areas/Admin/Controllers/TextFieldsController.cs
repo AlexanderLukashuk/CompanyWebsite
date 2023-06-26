@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CompanyWebsite.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class TextFieldsController : Controller
     {
         private readonly DataManager dataManager;
