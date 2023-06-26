@@ -25,6 +25,7 @@
     <Folder Include="Areas\Admin\Controllers\" />
     <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Areas\Admin\Views\Home\" />
+    <Folder Include="Areas\Admin\Views\TextFields\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.7" />
@@ -45,6 +46,7 @@
     <None Remove="Areas\Admin\Controllers\" />
     <None Remove="Areas\Admin\Views\" />
     <None Remove="Areas\Admin\Views\Home\" />
+    <None Remove="Areas\Admin\Views\TextFields\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CompanyWebsiteLibrary\CompanyWebsiteLibrary.csproj">
