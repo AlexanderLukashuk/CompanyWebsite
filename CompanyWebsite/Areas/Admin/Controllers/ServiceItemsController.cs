@@ -30,16 +30,16 @@ namespace CompanyWebsite.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(ServiceItem model, IFormFile titleIgameFile)
+        public IActionResult Edit(ServiceItem model, IFormFile titleImageFile)
         {
             if (ModelState.IsValid)
             {
-                if (titleIgameFile != null)
+                if (titleImageFile != null)
                 {
-                    model.TitleImagePath = titleIgameFile.FileName;
-                    using (var stream = new FileStream(Path.Combine(hostEnvironment.WebRootPath, "images/", titleIgameFile.FileName), FileMode.Create))
+                    model.TitleImagePath = titleImageFile.FileName;
+                    using (var stream = new FileStream(Path.Combine(hostEnvironment.WebRootPath, "images/", titleImageFile.FileName), FileMode.Create))
                     {
-                        titleIgameFile.CopyTo(stream);
+                        titleImageFile.CopyTo(stream);
                     }
                 }
                 dataManager.ServiceItems.SaveServiceItem(model);

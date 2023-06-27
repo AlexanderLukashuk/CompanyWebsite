@@ -2023,3 +2023,9 @@ input::-moz-focus-inner {
 .div-box-links {
 	display: block;
 }
+
+.img-block {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
