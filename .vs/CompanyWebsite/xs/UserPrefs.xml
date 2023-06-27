@@ -1,25 +1,22 @@
 ﻿<Properties StartupConfiguration="{6A15E5C1-B0A8-4BB1-A6AB-1B469C34CCB6}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CompanyWebsite/Areas/Admin/Views/Home/Index.cshtml">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CompanyWebsite/Areas/Admin/Controllers/TextFieldsController.cs">
     <Files>
       <File FileName="CompanyWebsite/Views/Shared/_Layout.cshtml" />
-      <File FileName="CompanyWebsite/Program.cs" />
+      <File FileName="CompanyWebsite/Program.cs" Line="1" Column="1" />
       <File FileName="CompanyWebsiteLibrary/Data/AppDbContext.cs" />
       <File FileName="CompanyWebsite/Service/AdminAreaAuthorization.cs" />
       <File FileName="CompanyWebsite/Models/LoginViewModel.cs" />
       <File FileName="CompanyWebsite/Controllers/AccountController.cs" />
       <File FileName="CompanyWebsite/Views/Account/Login.cshtml" />
       <File FileName="CompanyWebsite/Views/_ViewImports.cshtml" />
-      <File FileName="CompanyWebsite/Areas/Admin/Controllers/HomeController.cs" />
-      <File FileName="CompanyWebsite/Areas/Admin/Views/Home/Index.cshtml" Line="39" Column="33" />
+      <File FileName="CompanyWebsite/Areas/Admin/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="CompanyWebsite/Areas/Admin/Views/Home/Index.cshtml" Line="35" Column="23" />
       <File FileName="CompanyWebsite/wwwroot/css/main.css" />
-      <File FileName="CompanyWebsite/Areas/Admin/Controllers/TextFieldsController.cs" />
+      <File FileName="CompanyWebsite/Areas/Admin/Controllers/TextFieldsController.cs" Line="14" Column="20" />
       <File FileName="CompanyWebsite/Service/Extensions.cs" />
       <File FileName="CompanyWebsiteLibrary/Data/Repositories/EntityFramework/EFTextFieldRepository.cs" />
-      <File FileName="CompanyWebsite/Areas/Admin/Views/TextFields/Edit.cshtml" />
+      <File FileName="CompanyWebsite/Areas/Admin/Views/TextFields/Edit.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -30,9 +27,7 @@
                 <Node name="Admin" expanded="True">
                   <Node name="Controllers" expanded="True" />
                   <Node name="Views" expanded="True">
-                    <Node name="Home" expanded="True">
-                      <Node name="Index.cshtml" selected="True" />
-                    </Node>
+                    <Node name="Home" expanded="True" />
                     <Node name="TextFields" expanded="True" />
                   </Node>
                 </Node>
@@ -65,7 +60,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.CompanyWebsite PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
