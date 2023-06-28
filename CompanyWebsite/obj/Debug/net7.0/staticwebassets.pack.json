@@ -1437,6 +1437,10 @@
       "PackagePath": "staticwebassets/js/scripts.js"
     },
     {
+      "Id": "/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsite/wwwroot/js/scripts.min.js",
+      "PackagePath": "staticwebassets/js/scripts.min.js"
+    },
+    {
       "Id": "/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsite/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J8usD5aI8HbQ4y0k1rt42vMTsL3/0F+KJeNRwld5114=",
+  "Hash": "F/mJF/kYz93YhQMbJF8p/P5pLwPVIOcXEXEJCrussnI=",
   "Source": "CompanyWebsite",
   "BasePath": "_content/CompanyWebsite",
   "Mode": "Default",
@@ -6135,6 +6135,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/scripts.js"
+    },
+    {
+      "Identity": "/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsite/wwwroot/js/scripts.min.js",
+      "SourceId": "CompanyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsite/wwwroot/",
+      "BasePath": "_content/CompanyWebsite",
+      "RelativePath": "js/scripts.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/scripts.min.js"
     },
     {
       "Identity": "/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsite/wwwroot/js/site.js",
