@@ -28,6 +28,7 @@
     <Folder Include="Areas\Admin\Views\TextFields\" />
     <Folder Include="Areas\Admin\Views\ServiceItems\" />
     <Folder Include="Views\Services\" />
+    <Folder Include="Models\ViewComponents\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.7" />
@@ -51,6 +52,7 @@
     <None Remove="Areas\Admin\Views\TextFields\" />
     <None Remove="Areas\Admin\Views\ServiceItems\" />
     <None Remove="Views\Services\" />
+    <None Remove="Models\ViewComponents\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CompanyWebsiteLibrary\CompanyWebsiteLibrary.csproj">
