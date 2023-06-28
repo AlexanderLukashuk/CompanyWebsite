@@ -13,6 +13,10 @@ namespace CompanyWebsite.Models
 			this.dataManager = dataManager;
 		}
 
+		public Task<IViewComponentResult> InvokeAsync()
+		{
+			return Task.FromResult((IViewComponentResult)View("Default", dataManager.ServiceItems.GetServiceItems()));
+		}
 	}
 }
 
