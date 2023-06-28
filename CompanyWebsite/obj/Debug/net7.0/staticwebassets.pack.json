@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsite/wwwroot/images/IMG_1915.PNG",
+      "PackagePath": "staticwebassets/images/IMG_1915.PNG"
+    },
+    {
+      "Id": "/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsite/wwwroot/images/IMG_3059.PNG",
+      "PackagePath": "staticwebassets/images/IMG_3059.PNG"
+    },
+    {
       "Id": "/Users/aleksandrlukasuk/Projects/CompanyWebsite/CompanyWebsite/wwwroot/images/banner.jpg",
       "PackagePath": "staticwebassets/images/banner.jpg"
     },
